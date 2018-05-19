@@ -1,18 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>吾爱医资</title>
   <id>https://wuaiyizi.github.io</id>
-  <updated>2018-05-19T23:38:46+08:00</updated>
+  <updated>2018-05-20T00:49:26+08:00</updated>
   <subtitle>资源分享，仅2015级全科使用，勿喷。</subtitle>
   <link href="https://wuaiyizi.github.io"></link>
   <author>
     <name>吾爱医资</name>
   </author>
   <entry>
+    <title>WPS 2013&amp;2016</title>
+    <updated>2018-05-20T17:00:00+08:00</updated>
+    <id>tag:wuaiyizi.github.io,2018-05-20:/wps.html</id>
+    <content type="html"></content>
+    <link href="https://wuaiyizi.github.io/wps.html"></link>
+    <author>
+      <name>晨曦</name>
+    </author>
+  </entry>
+  <entry>
+    <title>口腔科学-视频资源</title>
+    <updated>2018-05-20T17:00:00+08:00</updated>
+    <id>tag:wuaiyizi.github.io,2018-05-20:/口腔科学.html</id>
+    <content type="html"></content>
+    <link href="https://wuaiyizi.github.io/口腔科学.html"></link>
+    <author>
+      <name>晨曦</name>
+    </author>
+  </entry>
+  <entry>
     <title>皮肤性病学-视频资源</title>
-    <updated>2016-07-11T17:00:00+08:00</updated>
-    <id>tag:wuaiyizi.github.io,2016-07-11:/皮肤性病学资料.html</id>
+    <updated>2018-05-20T17:00:00+08:00</updated>
+    <id>tag:wuaiyizi.github.io,2018-05-20:/皮肤性病学资料.html</id>
     <content type="html"></content>
     <link href="https://wuaiyizi.github.io/皮肤性病学资料.html"></link>
+    <author>
+      <name>晨曦</name>
+    </author>
+  </entry>
+  <entry>
+    <title>针灸推拿学-视频资源</title>
+    <updated>2018-05-20T17:00:00+08:00</updated>
+    <id>tag:wuaiyizi.github.io,2018-05-20:/针灸推拿学.html</id>
+    <content type="html"></content>
+    <link href="https://wuaiyizi.github.io/针灸推拿学.html"></link>
+    <author>
+      <name>晨曦</name>
+    </author>
+  </entry>
+  <entry>
+    <title>流行病学-视频资源</title>
+    <updated>2016-07-11T17:00:00+08:00</updated>
+    <id>tag:wuaiyizi.github.io,2016-07-11:/流行病学.html</id>
+    <content type="html"></content>
+    <link href="https://wuaiyizi.github.io/流行病学.html"></link>
     <author>
       <name>晨曦</name>
     </author>
