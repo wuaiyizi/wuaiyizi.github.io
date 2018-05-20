@@ -8,29 +8,13 @@
 <meta name="renderer" content="webkit">
 <meta name="google" value="notranslate">
 <meta name="robots" content="index,follow">
-
-
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="吾爱医资">
-<meta name="twitter:description" content="资源分享，仅2015级全科使用，勿喷。">
-<meta name="twitter:image:src" content="https://wuaiyizi.github.io/images/avatar.png">
-
-<meta property="og:url" content="https://wuaiyizi.github.io">
-<meta property="og:title" content="吾爱医资">
-<meta property="og:description" content="资源分享，仅2015级全科使用，勿喷。">
-<meta property="og:site_name" content="吾爱医资">
-<meta property="og:image" content="https://wuaiyizi.github.io/images/avatar.png">
-<meta property="og:type" content="website">
-<meta name="robots" content="noodp">
-
-<meta itemprop="name" content="吾爱医资">
-<meta itemprop="description" content="资源分享，仅2015级全科使用，勿喷。">
-<meta itemprop="image" content="https://wuaiyizi.github.io/images/avatar.png">
+<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1,user-scalable=no">
+<meta name="google-site-verification" content="j08-7pyJcZL5lH_vXdeVVTUZ19wjiG8PQK8ffyK3cKg" />
+<meta name="msvalidate.01" content="681F4A8136B63BCE65FEE41C54D0DD27" />
 
 <link rel="canonical" href="https://wuaiyizi.github.io">
-
+<link rel="stylesheet" href="https://lib.baomitu.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="shortcut icon" href="/favicon.png">
-<link rel="apple-itouch-icon" href="/favicon.png">
 <link rel="stylesheet" href="/bundle/index.css">
 <script type="text/javascript">
     var timeSinceLang = {
@@ -43,66 +27,33 @@
     };
     var root = '';
 </script>
-
-<script type="text/javascript">
-    var conn, reloadTimer, connectTimer;
-    var connect = function() {
-        conn = new WebSocket('ws://' + location.host + '/live');
-        conn.onmessage = function(event) {
-            if (event.data === 'change') {
-                if (reloadTimer) clearTimeout(reloadTimer);
-                reloadTimer = setTimeout(function() {
-                    window.location.reload();
-                }, 200);
-            }
-        };
-        conn.onclose = function() {
-            if (connectTimer) clearTimeout(connectTimer);
-            connectTimer = setTimeout(function() {
-                connect();
-            }, 1000);
-        };
-    };
-    connect();
-</script>
-
-
         <meta name="keywords" content="资源分享，仅2015级全科使用，勿喷。">
         <meta name="description" content="资源分享，仅2015级全科使用，勿喷。">
         <title>吾爱医资</title>
     </head>
     <body>
-        <article class="container">
-            <header class="header-wrap">
-  <a class="index" href="/">
-    <img class="logo" src="/images/avatar.png" />
-    吾爱医资
-  </a>
-  <ul class="menu">
-      <li class="menu-item"><a href="/archive.html">归档</a></li>
-      <li class="menu-item"><a href="/tag.html">标签</a></li>
-      <li class="menu-item"><a href="/atom.xml">订阅</a></li>
-  </ul>
-</header>
-
-            <article class="main page">
-                <header class="header site">
-                    
-                        <img class="logo" src="/images/avatar.png" />
-                        <h1 class="title">吾爱医资</h1>
-                        <h2 class="subtitle">资源分享，仅2015级全科使用，勿喷。</h2>
-                        <div class="search-wrap">
-  <input id="search" class="search" placeholder="搜索..." data-root="">
-  <svg class="icon" width="25" height="25" viewBox="0 0 25 25"><path d="M20.067 18.933l-4.157-4.157a6 6 0 1 0-.884.884l4.157 4.157a.624.624 0 1 0 .884-.884zM6.5 11c0-2.62 2.13-4.75 4.75-4.75S16 8.38 16 11s-2.13 4.75-4.75 4.75S6.5 13.62 6.5 11z"></path></svg>
-</div>
-
-                    
+<header class="header-wrap">
+    <div class="container">
+        <div class="header-group main">
+		    <header class="site">
+                <h1 class="title">吾爱医资</h1>
+                <h2 class="description subtitle">资源分享，仅2015级全科使用，勿喷。</h2>
                 </header>
+            <nav id="nav-menu" class="clearfix">
+                <a class="current " href="https://wuaiyizi.github.io">首页</a>
+                <a href="/archive.html">归档</a>
+				<a href="/tag.html">标签</a>
+				<a href="/atom.xml">订阅</a>
+            </nav>
+        </div>
+    </div>
+</header>
+        <article class="container">
+            <article class="main page">
                 <ul class="article-list">
                     
                     <li class="article">
                         <a class="title" href="/wps.html">WPS 2013&amp;2016</a>
-                        
                         
                         <section class="info">
                             <span class="avatar" style="background-image: url(/images/avatar.png);"></span>
@@ -111,7 +62,8 @@
                             <span class="date" data-time="1526806800"><span class="from"></span></span>
                             
                             <span class="tags">
-                            
+							<i class="fa fa-tags" aria-hidden="true"></i> 
+							<a class="tag" href="/wps.html">继续阅读>></a>
                             </span>
                         </section>
                     </li>
@@ -119,7 +71,6 @@
                     <li class="article">
                         <a class="title" href="/%e5%8f%a3%e8%85%94%e7%a7%91%e5%ad%a6.html">口腔科学-视频资源</a>
                         
-                        
                         <section class="info">
                             <span class="avatar" style="background-image: url(/images/avatar.png);"></span>
                             <a class="name" href="/about.me.html">晨曦</a>
@@ -127,7 +78,8 @@
                             <span class="date" data-time="1526806800"><span class="from"></span></span>
                             
                             <span class="tags">
-                            
+							<i class="fa fa-tags" aria-hidden="true"></i> 
+							<a class="tag" href="/%e5%8f%a3%e8%85%94%e7%a7%91%e5%ad%a6.html">继续阅读>></a>
                             </span>
                         </section>
                     </li>
@@ -135,7 +87,6 @@
                     <li class="article">
                         <a class="title" href="/%e7%9a%ae%e8%82%a4%e6%80%a7%e7%97%85%e5%ad%a6%e8%b5%84%e6%96%99.html">皮肤性病学-视频资源</a>
                         
-                        
                         <section class="info">
                             <span class="avatar" style="background-image: url(/images/avatar.png);"></span>
                             <a class="name" href="/about.me.html">晨曦</a>
@@ -143,7 +94,8 @@
                             <span class="date" data-time="1526806800"><span class="from"></span></span>
                             
                             <span class="tags">
-                            
+							<i class="fa fa-tags" aria-hidden="true"></i> 
+							<a class="tag" href="/%e7%9a%ae%e8%82%a4%e6%80%a7%e7%97%85%e5%ad%a6%e8%b5%84%e6%96%99.html">继续阅读>></a>
                             </span>
                         </section>
                     </li>
@@ -151,7 +103,6 @@
                     <li class="article">
                         <a class="title" href="/%e9%92%88%e7%81%b8%e6%8e%a8%e6%8b%bf%e5%ad%a6.html">针灸推拿学-视频资源</a>
                         
-                        
                         <section class="info">
                             <span class="avatar" style="background-image: url(/images/avatar.png);"></span>
                             <a class="name" href="/about.me.html">晨曦</a>
@@ -159,14 +110,14 @@
                             <span class="date" data-time="1526806800"><span class="from"></span></span>
                             
                             <span class="tags">
-                            
+							<i class="fa fa-tags" aria-hidden="true"></i> 
+							<a class="tag" href="/%e9%92%88%e7%81%b8%e6%8e%a8%e6%8b%bf%e5%ad%a6.html">继续阅读>></a>
                             </span>
                         </section>
                     </li>
                     
                     <li class="article">
                         <a class="title" href="/%e6%b5%81%e8%a1%8c%e7%97%85%e5%ad%a6.html">流行病学-视频资源</a>
-                        
                         
                         <section class="info">
                             <span class="avatar" style="background-image: url(/images/avatar.png);"></span>
@@ -175,7 +126,8 @@
                             <span class="date" data-time="1468227600"><span class="from"></span></span>
                             
                             <span class="tags">
-                            
+							<i class="fa fa-tags" aria-hidden="true"></i> 
+							<a class="tag" href="/%e6%b5%81%e8%a1%8c%e7%97%85%e5%ad%a6.html">继续阅读>></a>
                             </span>
                         </section>
                     </li>
@@ -190,10 +142,9 @@
         </article>
         <footer class="footer">
     <span class="copyright">
-        吾爱医资 ©
-        <script type="text/javascript">
+		<script type="text/javascript">
             document.write(new Date().getFullYear());
-        </script>
+        </script> © 吾爱医资
     </span>
     <span class="publish">Powered by <a href="http://www.chole.io/" target="_blank">Ink</a></span>
 </footer>
